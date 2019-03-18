@@ -1,6 +1,6 @@
 {
     "name": "nwhale/google-customer-reviews",
-    "description": "Google Customer Reviews by NWhale",
+    "description": "Google Customer Reviews by Nwhale",
     "require": {
         "php": "~5.5.22|~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0"
     },
@@ -14,7 +14,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "NWhale\\GoogleReviews\\": ""
+            "Nwhale\\GoogleReviews\\": ""
         }
     }
 }

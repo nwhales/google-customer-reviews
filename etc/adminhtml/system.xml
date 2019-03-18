@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
@@ -17,17 +17,16 @@
                             padding-bottom: 11px;
                         }
                         .config-nav-block.nwhale-tab strong:before {
-                            background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA8CAMAAADhV0xWAAABGlBMVEX////j4+OMjIw6OjoDAwMAAADh4eHBwcFMTEzAwMC/v789PT3m5uZbW1uqqqoPDw/5+flsbGz4+Pjy8vJDQ0M+Pj7t7e3q6uozMzMvLy/w8PAyMjIxMTFCQkJqamqpqank5OQQEBASEhI8PDxRUVFEQ0OpqajAv7/Ew8O+vr68vLzp6ekEBASPj4+amZna2dnOzs6Mi4tNTEzx8fGRkZGwsLChoKB9fHxdXV1LS0u2trbFxMSEhITu7e2CgoJXV1c2NjYcHBwbGxsMDAwNDQ0GBgZFRUVQUFAfHx/W1dWDg4Pd3Nzv7++YmJhdXFy7u7tpaWlAQEDs7OwtLS0wMDBBQUFra2sODg5aWlpZWVk7OzsCAgKLi4s5OTkgbpnaAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAEgAAABIAEbJaz4AAAKfSURBVEjHtZdrW9owFICDcgQBFdycG5s6Tx1MUYGCQtmm7n7fnO6u/v+/MZLekjS38jw7X3ja9H1pTtKThJD/EoW5+SIIUZyfW3DGS2WJjhzlRSe8UgVtVCtWvLYExliqmfnlFbDEyrIBrzdsOI3Gqo6/dduFB1i7o+bX77rxAPfWVXzzvisP8KCp6P+GOw+wUc8INvPwAJuZ8cvHA2yJ/MNtO4Keh+nVdkEQ7FjxR602IY+5Gzs8v2v//xZ9jhfAHifwZhF4KV9ySFpWAKVEUJ5NUI75zr4q416SdHbRzgr2O5HgIIMfdllDrz9VoN9OXlUUwIEmhThIiC7ikEu2JIjS2JQqIB7Ru8ceqz2jMXsmUHUBiuE3NQGV14MG/XnSYzZUJRFgwh59qhH49OcZuxiBWnDCWk81Am6iNDSCU9Z6ZheMNYIz1vpcKRgiG/7AKHjBWl/KoxiO+xGmNp3gFWuVp1GYPUIGY7QJQC1AP1p+pi9hFrxWdoEqjqOX8N8YBahMovASb42Cd8phFFL53mEY5YkUfcpxN0yCcCJ9mH0inRg/Ju6r1gkmys85FsBHm6D4SVlQ3AVxJ9OSRvOH4W3fQRCXtLSo0qdG8eTjchDXg5bAJ0WVBIIAa2EJCEUDviL1BUGQ/EFJEMAhvdfz2DzofmZPfAlropitdGFJGkIBdrkZgL30Yog8z80TsicIAPshVWtN1xYcRetC2xd4+MoJ4uUd4+UouzIJmwMawvJOCg4bDDGkDQbZyiuQtjiEnOfjz2We1L/l4dfqGQG5uHTnLy+IIjrfnfkOUcbghxtf1Wy2CVn96cJvarf7xOXA8ct04KCz97eZ/2M58kyjYtg0/t214jQWgysVfRW4HftoLFzfyAfPm2v3g2eu+AejdWsdGUdpfgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNy0wOS0yM1QxMzoyMToyNS0wNTowMFrmvNUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTctMDktMjNUMTM6MjE6MjUtMDU6MDAruwRpAAAAAElFTkSuQmCC);
+                            background: no-repeat url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MTkiIGhlaWdodD0iMjU1IiB2aWV3Qm94PSIwIDAgNDE5IDI1NSIgZmlsbD0ibm9uZSI+IDxwYXRoIGQ9Ik0yNCAxNTMuMjJDMTUxLjYzOSAxNDEuMDAzIDI3OC42NzkgMTQyLjg2MSAzOTAgMTY5QzM0Mi4wNiAxNDcuMDY1IDI5NS4yMTIgMTM0LjQ4NyAyNTEuNTk3IDEyOC4zMTNDMjM1LjE5MyA3NS44NDY0IDE3OC4yOTQgMCAxNTUuNzQgMEMxNTQuMDMxIDAgMTUwLjYxMyAxLjQyNTMgMTUwLjYxMyA3LjEyNjUxQzE1MC42MTMgMjYuNDY5OSAxNzguMjk0IDY0LjEzODYgMTU3LjI3NyAxMjQuMTFDOTcuMjkyOCAxMjcuMjU3IDQ5LjkxMTcgMTQxLjA0IDI0IDE1My4yMloiIGZpbGw9IiMwMDAiLz4gPC9zdmc+);
                             background-size: auto 29px;
-                            width: 30px;
-                            height: 29px;
+                            width: 42px;
+                            height: 26px;
                             content: '';
                             display: inline-block;
-                            margin-right: 5px;
                             vertical-align: middle;
                         }
                     </style>
-                    NWhale Extensions
+                    nWhales Extensions
                 ]]>
             </label>
         </tab>
@@ -35,7 +34,7 @@
         <section id="nwhale_google_reviews" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Google Customer Reviews</label>
             <tab>nwhale</tab>
-            <resource>NWhale_GoogleReviews::config</resource>
+            <resource>Nwhale_GoogleReviews::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                 <label>General Settings</label>
                 <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
@@ -54,8 +53,8 @@
                 </field>
                 <field id="custom_time" translate="label,comment" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Custom Delivery Time Rules</label>
-                    <frontend_model>NWhale\GoogleReviews\Block\Adminhtml\Form\Field\CustomDeliveryTime</frontend_model>
-                    <backend_model>NWhale\GoogleReviews\Model\Config\CustomDeliveryTime</backend_model>
+                    <frontend_model>Nwhale\GoogleReviews\Block\Adminhtml\Form\Field\CustomDeliveryTime</frontend_model>
+                    <backend_model>Nwhale\GoogleReviews\Model\Config\CustomDeliveryTime</backend_model>
                     <comment>Specific carrier values have higher priority than defaults</comment>
                 </field>
             </group>
@@ -76,11 +75,11 @@
                 </field>
                 <field id="style" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Survey Style</label>
-                    <source_model>NWhale\GoogleReviews\Model\Source\SurveyStyle</source_model>
+                    <source_model>Nwhale\GoogleReviews\Model\Source\SurveyStyle</source_model>
                 </field>
                 <field id="language" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Survey Language</label>
-                    <source_model>NWhale\GoogleReviews\Model\Source\Language</source_model>
+                    <source_model>Nwhale\GoogleReviews\Model\Source\Language</source_model>
                 </field>
             </group>
             <group id="badge" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -91,11 +90,11 @@
                 </field>
                 <field id="position" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Badge Position</label>
-                    <source_model>NWhale\GoogleReviews\Model\Source\BadgePosition</source_model>
+                    <source_model>Nwhale\GoogleReviews\Model\Source\BadgePosition</source_model>
                 </field>
                 <field id="language" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Badge Language</label>
-                    <source_model>NWhale\GoogleReviews\Model\Source\Language</source_model>
+                    <source_model>Nwhale\GoogleReviews\Model\Source\Language</source_model>
                 </field>
             </group>
         </section>

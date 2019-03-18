@@ -1,11 +1,11 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Helper;
+namespace Nwhale\GoogleReviews\Helper;
 
 use Magento\Store\Model\ScopeInterface;
 use Magento\Framework\App\ObjectManager;

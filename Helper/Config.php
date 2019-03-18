@@ -1,16 +1,16 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Helper;
+namespace Nwhale\GoogleReviews\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 use Magento\Store\Model\ScopeInterface;
-use NWhale\GoogleReviews\Helper\CustomDeliveryTime\Proxy as CustomTimeHelperProxy;
+use Nwhale\GoogleReviews\Helper\CustomDeliveryTime\Proxy as CustomTimeHelperProxy;
 
 class Config extends AbstractHelper
 {

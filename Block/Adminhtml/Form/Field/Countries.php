@@ -1,11 +1,11 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Block\Adminhtml\Form\Field;
+namespace Nwhale\GoogleReviews\Block\Adminhtml\Form\Field;
 
 /**
  * @method setName(string $value)

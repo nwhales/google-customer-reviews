@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="before.body.end">
-            <block class="NWhale\GoogleReviews\Block\Badge"
+            <block class="Nwhale\GoogleReviews\Block\Badge"
                    name="nwhale.google_reviews.badge"
-                   template="NWhale_GoogleReviews::badge.phtml"
+                   template="Nwhale_GoogleReviews::badge.phtml"
                    cacheable="false"/>
         </referenceContainer>
     </body>

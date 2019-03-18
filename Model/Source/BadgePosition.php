@@ -1,11 +1,11 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2017 NWhale (https://www.nwhaletech.com]
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com]
  */
 
-namespace NWhale\GoogleReviews\Model\Source;
+namespace Nwhale\GoogleReviews\Model\Source;
 
 use Magento\Framework\Option\ArrayInterface;
 
@@ -16,7 +16,6 @@ class BadgePosition implements ArrayInterface
         return [
             'BOTTOM_RIGHT' => __('Bottom Right'),
             'BOTTOM_LEFT' => __('Bottom Left'),
-//            'Custom' => 'CUSTOM'
         ];
     }
 }

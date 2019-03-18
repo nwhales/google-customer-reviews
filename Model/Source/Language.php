@@ -1,11 +1,11 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Model\Source;
+namespace Nwhale\GoogleReviews\Model\Source;
 
 use Magento\Framework\Locale\TranslatedLists;
 use Magento\Framework\Option\ArrayInterface;

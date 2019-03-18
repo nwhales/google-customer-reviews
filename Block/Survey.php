@@ -1,17 +1,17 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Block;
+namespace Nwhale\GoogleReviews\Block;
 
 use Magento\Sales\Model\Order;
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\Stdlib\DateTime\DateTime;
 use Magento\Sales\Model\ResourceModel\Order\CollectionFactory as OrderCollectionFactory;
-use NWhale\GoogleReviews\Helper\Config as ConfigHelper;
+use Nwhale\GoogleReviews\Helper\Config as ConfigHelper;
 
 /**
  * @method setOrderIds(array $orderIds)
@@ -21,7 +21,7 @@ class Survey extends Template
 {
     const SURVEY_DATA_FIELDS_COUNT = 6;
 
-    /** @var \NWhale\GoogleReviews\Helper\Config */
+    /** @var \Nwhale\GoogleReviews\Helper\Config */
     private $configHelper;
 
     /** @var OrderCollectionFactory */

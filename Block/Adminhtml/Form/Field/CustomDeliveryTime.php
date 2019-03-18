@@ -1,13 +1,13 @@
 <?php
 /**
- * @author NWhale Team
+ * @author nWhales Team
  *
- * @copyright Copyright (c) 2018 NWhale (https://www.nwhaletech.com)
+ * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
  */
 
-namespace NWhale\GoogleReviews\Block\Adminhtml\Form\Field;
+namespace Nwhale\GoogleReviews\Block\Adminhtml\Form\Field;
 
-use NWhale\GoogleReviews\Helper\CustomDeliveryTime as Helper;
+use Nwhale\GoogleReviews\Helper\CustomDeliveryTime as Helper;
 use Magento\Config\Block\System\Config\Form\Field\FieldArray\AbstractFieldArray;
 
 class CustomDeliveryTime extends AbstractFieldArray
@@ -18,7 +18,7 @@ class CustomDeliveryTime extends AbstractFieldArray
     /** @var  null|Countries */
     private $countriesRenderer;
 
-    protected $_template = 'NWhale_GoogleReviews::system/config/form/field/array.phtml';
+    protected $_template = 'Nwhale_GoogleReviews::system/config/form/field/array.phtml';
 
     private function getCarriersRenderer()
     {
