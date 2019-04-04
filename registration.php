@@ -1,12 +1,12 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Nwhale_GoogleReviews',
+    'Nwhales_GoogleReviews',
     __DIR__
 );

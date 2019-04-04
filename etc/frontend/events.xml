@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="checkout_onepage_controller_success_action">
-        <observer name="nwhale_google_reviews_checkout_success"
-                  instance="Nwhale\GoogleReviews\Observer\SetOrderToSurveyObserver"/>
+        <observer name="nwhales_google_reviews_checkout_success"
+                  instance="Nwhales\GoogleReviews\Observer\SetOrderToSurveyObserver"/>
     </event>
 </config>

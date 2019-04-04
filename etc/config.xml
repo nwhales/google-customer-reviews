@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <default>
-        <nwhale_google_reviews>
+        <nwhales_google_reviews>
             <general>
                 <enabled>0</enabled>
                 <merchant_id/>
@@ -25,6 +25,6 @@
                 <position>BOTTOM_RIGHT</position>
                 <language>0</language>
             </badge>
-        </nwhale_google_reviews>
+        </nwhales_google_reviews>
     </default>
 </config>

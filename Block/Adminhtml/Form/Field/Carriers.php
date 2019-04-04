@@ -1,13 +1,13 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
-namespace Nwhale\GoogleReviews\Block\Adminhtml\Form\Field;
+namespace Nwhales\GoogleReviews\Block\Adminhtml\Form\Field;
 
-use Nwhale\GoogleReviews\Helper\CustomDeliveryTime as Helper;
+use Nwhales\GoogleReviews\Helper\CustomDeliveryTime as Helper;
 
 /**
  * @method setName(string $value)

@@ -1,18 +1,18 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
-namespace Nwhale\GoogleReviews\Block;
+namespace Nwhales\GoogleReviews\Block;
 
 use Magento\Framework\View\Element\Template;
-use Nwhale\GoogleReviews\Helper\Config as ConfigHelper;
+use Nwhales\GoogleReviews\Helper\Config as ConfigHelper;
 
 class Badge extends Template
 {
-    /** @var \Nwhale\GoogleReviews\Helper\Config */
+    /** @var \Nwhales\GoogleReviews\Helper\Config */
     private $configHelper;
 
     public function __construct(

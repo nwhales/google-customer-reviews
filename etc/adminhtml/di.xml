@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <type name="Nwhale\GoogleReviews\Model\Config\CustomDeliveryTime">
+    <type name="Nwhales\GoogleReviews\Model\Config\CustomDeliveryTime">
         <arguments>
             <argument name="data" xsi:type="array">
-                <item name="helper" xsi:type="object">Nwhale\GoogleReviews\Helper\CustomDeliveryTime</item>
+                <item name="helper" xsi:type="object">Nwhales\GoogleReviews\Helper\CustomDeliveryTime</item>
             </argument>
         </arguments>
     </type>

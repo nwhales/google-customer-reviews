@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Nwhale_GoogleReviews" setup_version="1.0.0" />
+    <module name="Nwhales_GoogleReviews" setup_version="1.0.0" />
 </config>

@@ -1,31 +1,31 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
-namespace Nwhale\GoogleReviews\Helper;
+namespace Nwhales\GoogleReviews\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 use Magento\Store\Model\ScopeInterface;
-use Nwhale\GoogleReviews\Helper\CustomDeliveryTime\Proxy as CustomTimeHelperProxy;
+use Nwhales\GoogleReviews\Helper\CustomDeliveryTime\Proxy as CustomTimeHelperProxy;
 
 class Config extends AbstractHelper
 {
-    const MODULE_ENABLED_PATH = 'nwhale_google_reviews/general/enabled';
-    const MERCHANT_ID_PATH = 'nwhale_google_reviews/general/merchant_id';
-    const DELIVERY_OFFSET_PATH = 'nwhale_google_reviews/general/delivery_time';
+    const MODULE_ENABLED_PATH = 'nwhales_google_reviews/general/enabled';
+    const MERCHANT_ID_PATH = 'nwhales_google_reviews/general/merchant_id';
+    const DELIVERY_OFFSET_PATH = 'nwhales_google_reviews/general/delivery_time';
 
-    const SURVEY_ALL_CUSTOMERS_PATH = 'nwhale_google_reviews/survey/all_customers';
-    const SURVEY_CUSTOMER_GROUPS_PATH = 'nwhale_google_reviews/survey/customer_groups';
-    const SURVEY_LANGUAGE_PATH = 'nwhale_google_reviews/survey/language';
-    const SURVEY_STYLE_PATH = 'nwhale_google_reviews/survey/style';
+    const SURVEY_ALL_CUSTOMERS_PATH = 'nwhales_google_reviews/survey/all_customers';
+    const SURVEY_CUSTOMER_GROUPS_PATH = 'nwhales_google_reviews/survey/customer_groups';
+    const SURVEY_LANGUAGE_PATH = 'nwhales_google_reviews/survey/language';
+    const SURVEY_STYLE_PATH = 'nwhales_google_reviews/survey/style';
 
-    const BADGE_ENABLED_PATH = 'nwhale_google_reviews/badge/enabled';
-    const BADGE_POSITION_PATH = 'nwhale_google_reviews/badge/position';
-    const BADGE_LANGUAGE_PATH = 'nwhale_google_reviews/badge/language';
+    const BADGE_ENABLED_PATH = 'nwhales_google_reviews/badge/enabled';
+    const BADGE_POSITION_PATH = 'nwhales_google_reviews/badge/position';
+    const BADGE_LANGUAGE_PATH = 'nwhales_google_reviews/badge/language';
 
     /** @var  CustomTimeHelperProxy|null */
     private  $customTimeHelper;

@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="nwhale" sortOrder="999998" class="nwhale-tab">
+        <tab id="nwhales" sortOrder="999998" class="nwhales-tab">
             <label>
                 <![CDATA[
                     <style>
-                        .config-nav-block.nwhale-tab .title {
+                        .config-nav-block.nwhales-tab .title {
                             padding-top: 15px;
                             padding-bottom: 11px;
                         }
-                        .config-nav-block.nwhale-tab strong:before {
+                        .config-nav-block.nwhales-tab strong:before {
                             background: no-repeat url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MTkiIGhlaWdodD0iMjU1IiB2aWV3Qm94PSIwIDAgNDE5IDI1NSIgZmlsbD0ibm9uZSI+IDxwYXRoIGQ9Ik0yNCAxNTMuMjJDMTUxLjYzOSAxNDEuMDAzIDI3OC42NzkgMTQyLjg2MSAzOTAgMTY5QzM0Mi4wNiAxNDcuMDY1IDI5NS4yMTIgMTM0LjQ4NyAyNTEuNTk3IDEyOC4zMTNDMjM1LjE5MyA3NS44NDY0IDE3OC4yOTQgMCAxNTUuNzQgMEMxNTQuMDMxIDAgMTUwLjYxMyAxLjQyNTMgMTUwLjYxMyA3LjEyNjUxQzE1MC42MTMgMjYuNDY5OSAxNzguMjk0IDY0LjEzODYgMTU3LjI3NyAxMjQuMTFDOTcuMjkyOCAxMjcuMjU3IDQ5LjkxMTcgMTQxLjA0IDI0IDE1My4yMloiIGZpbGw9IiMwMDAiLz4gPC9zdmc+);
                             background-size: auto 29px;
                             width: 42px;
@@ -26,15 +26,15 @@
                             vertical-align: middle;
                         }
                     </style>
-                    nWhales Extensions
+                    Nwhales Extensions
                 ]]>
             </label>
         </tab>
 
-        <section id="nwhale_google_reviews" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="nwhales_google_reviews" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Google Customer Reviews</label>
-            <tab>nwhale</tab>
-            <resource>Nwhale_GoogleReviews::config</resource>
+            <tab>nwhales</tab>
+            <resource>Nwhales_GoogleReviews::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                 <label>General Settings</label>
                 <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
@@ -53,8 +53,8 @@
                 </field>
                 <field id="custom_time" translate="label,comment" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Custom Delivery Time Rules</label>
-                    <frontend_model>Nwhale\GoogleReviews\Block\Adminhtml\Form\Field\CustomDeliveryTime</frontend_model>
-                    <backend_model>Nwhale\GoogleReviews\Model\Config\CustomDeliveryTime</backend_model>
+                    <frontend_model>Nwhales\GoogleReviews\Block\Adminhtml\Form\Field\CustomDeliveryTime</frontend_model>
+                    <backend_model>Nwhales\GoogleReviews\Model\Config\CustomDeliveryTime</backend_model>
                     <comment>Specific carrier values have higher priority than defaults</comment>
                 </field>
             </group>
@@ -75,11 +75,11 @@
                 </field>
                 <field id="style" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Survey Style</label>
-                    <source_model>Nwhale\GoogleReviews\Model\Source\SurveyStyle</source_model>
+                    <source_model>Nwhales\GoogleReviews\Model\Source\SurveyStyle</source_model>
                 </field>
                 <field id="language" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Survey Language</label>
-                    <source_model>Nwhale\GoogleReviews\Model\Source\Language</source_model>
+                    <source_model>Nwhales\GoogleReviews\Model\Source\Language</source_model>
                 </field>
             </group>
             <group id="badge" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -90,11 +90,11 @@
                 </field>
                 <field id="position" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Badge Position</label>
-                    <source_model>Nwhale\GoogleReviews\Model\Source\BadgePosition</source_model>
+                    <source_model>Nwhales\GoogleReviews\Model\Source\BadgePosition</source_model>
                 </field>
                 <field id="language" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Badge Language</label>
-                    <source_model>Nwhale\GoogleReviews\Model\Source\Language</source_model>
+                    <source_model>Nwhales\GoogleReviews\Model\Source\Language</source_model>
                 </field>
             </group>
         </section>

@@ -1,11 +1,11 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
-namespace Nwhale\GoogleReviews\Helper;
+namespace Nwhales\GoogleReviews\Helper;
 
 use Magento\Store\Model\ScopeInterface;
 use Magento\Framework\App\ObjectManager;
@@ -19,7 +19,7 @@ class CustomDeliveryTime
     const COUNTRIES = 'countries';
     const DELIVERY_TIME = 'delivery_time';
 
-    const XML_PATH_CUSTOM_DELIVERY_OFFSET = 'nwhale_google_reviews/general/custom_time';
+    const XML_PATH_CUSTOM_DELIVERY_OFFSET = 'nwhales_google_reviews/general/custom_time';
 
     /** @var \Magento\Framework\Math\Random */
     private $mathRandom;

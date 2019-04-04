@@ -1,11 +1,11 @@
 <?php
 /**
- * @author nWhales Team
+ * @author Nwhales Team
  *
- * @copyright Copyright (c) 2019 nWhales (https://www.nwhales.com)
+ * @copyright Copyright (c) 2019 Nwhales (https://www.nwhales.com)
  */
 
-namespace Nwhale\GoogleReviews\Model\Config;
+namespace Nwhales\GoogleReviews\Model\Config;
 
 /**
  * Backend for serialized array data
@@ -14,7 +14,7 @@ namespace Nwhale\GoogleReviews\Model\Config;
  */
 class CustomDeliveryTime extends \Magento\Framework\App\Config\Value
 {
-    /** @var \Nwhale\GoogleReviews\Helper\CustomDeliveryTime */
+    /** @var \Nwhales\GoogleReviews\Helper\CustomDeliveryTime */
     private $helper;
 
     protected function _construct()
