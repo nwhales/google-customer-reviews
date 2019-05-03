@@ -57,5 +57,4 @@ class Badge extends Template
         $lang = $this->configHelper->getBadgeLanguage();
         return $this->escapeHtml($lang);
     }
-
 }
