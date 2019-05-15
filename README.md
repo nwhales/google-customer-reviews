@@ -1,0 +1,2 @@
+# google-customer-reviews
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/774f0fbd5f2c4ce1a13e24792df3a067)](https://app.codacy.com/app/Eobukhovsky/google-customer-reviews?utm_source=github.com&utm_medium=referral&utm_content=nwhales/google-customer-reviews&utm_campaign=Badge_Grade_Settings)
